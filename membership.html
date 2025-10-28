@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - SOGWA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="SOGWA Logo" class="logo-img">
+                <div class="logo-text">
+                    <h2>SOGWA</h2>
+                    <span>Sarawak Oil & Gas Workers Association</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="leadership.html" class="nav-link">Leadership</a>
+                </li>
+                <li class="nav-item">
+                    <a href="membership.html" class="nav-link active">Membership</a>
+                </li>
+                <li class="nav-item">
+                    <a href="activities.html" class="nav-link">Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item language-switcher">
+                    <button class="nav-link language-toggle-btn" onclick="toggleLanguage()">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">EN</span>
+                        <i class="fas fa-exchange-alt toggle-icon"></i>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link dark-mode-toggle" onclick="toggleDarkMode()">
+                        <i class="fas fa-moon"></i>
+                        <span>Dark</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Membership</h1>
+                <p>Join SOGWA and be part of a community that protects your rights and welfare</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Membership</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <div class="membership-content">
+                <div class="membership-criteria">
+                    <h3>Membership Criteria</h3>
+                    <div class="criteria-grid">
+                        <div class="criteria-item">
+                            <i class="fas fa-flag"></i>
+                            <span>Malaysian Citizen</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>Minimum 18 years old</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Resident of Sarawak</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-users"></i>
+                            <span>All ethnicities welcome</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-venus-mars"></i>
+                            <span>Male and Female</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-pray"></i>
+                            <span>All religions</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-industry"></i>
+                            <span>Working in Oil & Gas Industry</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="membership-fees">
+                    <h3>Membership Fees</h3>
+                    <div class="fees-grid">
+                        <div class="fee-card">
+                            <h4>Registration Fee</h4>
+                            <div class="fee-amount">RM 40.00</div>
+                            <p>One-time payment upon joining</p>
+                        </div>
+                        <div class="fee-card">
+                            <h4>Annual Fee</h4>
+                            <div class="fee-amount">RM 60.00</div>
+                            <p>Yearly membership renewal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="benefits">
+                <div class="benefits-header">
+                    <h3>Member Benefits</h3>
+                    <p>Join SOGWA and enjoy these exclusive benefits designed for oil and gas workers</p>
+                </div>
+                
+                <div class="benefits-categories">
+                    <!-- Core Benefits -->
+                    <div class="benefit-category">
+                        <h4 class="category-title">
+                            <i class="fas fa-star"></i>
+                            Core Benefits
+                        </h4>
+                        <div class="benefits-grid core-benefits">
+                            <div class="benefit-item primary-benefit">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Welfare Protection</h4>
+                                    <p>Comprehensive protection of your rights and welfare in the workplace with dedicated support</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item primary-benefit">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-gavel"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Legal Support</h4>
+                                    <p>Professional assistance with workplace disputes and legal matters from experienced advocates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Career Benefits -->
+                    <div class="benefit-category">
+                        <h4 class="category-title">
+                            <i class="fas fa-briefcase"></i>
+                            Career Development
+                        </h4>
+                        <div class="benefits-grid career-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Job Opportunities</h4>
+                                    <p>Access to exclusive job matching and career opportunities in the oil and gas industry</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Training Programs</h4>
+                                    <p>Skills development and competency enhancement programs to advance your career</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Professional Networking</h4>
+                                    <p>Connect with fellow oil and gas professionals and industry leaders</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Information Benefits -->
+                    <div class="benefit-category">
+                        <h4 class="category-title">
+                            <i class="fas fa-info-circle"></i>
+                            Information & Updates
+                        </h4>
+                        <div class="benefits-grid info-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-newspaper"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Industry Updates</h4>
+                                    <p>Latest news, developments, and trends in the oil and gas sector</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Event Access</h4>
+                                    <p>Priority access to SOGWA events, seminars, and industry conferences</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Section -->
+    <section class="application-section">
+        <div class="container">
+            <div class="application-content">
+                <h2>Ready to Join SOGWA?</h2>
+                <p>Take the first step towards protecting your rights and advancing your career in the oil and gas industry</p>
+                <div class="application-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h4>Check Eligibility</h4>
+                        <p>Ensure you meet our membership criteria</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h4>Contact Us</h4>
+                        <p>Get in touch to start your application</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h4>Submit Documents</h4>
+                        <p>Provide required documentation</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h4>Pay Fees</h4>
+                        <p>Complete registration and annual fees</p>
+                    </div>
+                </div>
+                <div class="application-buttons">
+                    <a href="contact.html" class="btn btn-primary">Start Application</a>
+                    <a href="leadership.html" class="btn btn-secondary">Meet Our Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="SOGWA Logo" class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <h3>SOGWA</h3>
+                            <p>Sarawak Oil and Gas Workers Association</p>
+                        </div>
+                    </div>
+                    <p>Protecting and advancing the welfare of oil and gas workers in Sarawak since 2017.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:secretary.sogwa@gmail.com">secretary.sogwa@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+60164014308">016 401 4308</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Survey Lot 10464, (Sub Lot 277) of Parent Lot 871,<br>
+                        Block 5 Kuala Baram Land District (G/F)<br>
+                        98000 Miri, Sarawak</p> 
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> SOGWA - Sarawak Oil and Gas Workers Association. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

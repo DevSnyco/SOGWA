@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keahlian - SOGWA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Logo SOGWA" class="logo-img">
+                <div class="logo-text">
+                    <h2>SOGWA</h2>
+                    <span>Persatuan Pekerja Minyak dan Gas Sarawak</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index-bm.html" class="nav-link">Utama</a>
+                </li>
+                <li class="nav-item">
+                    <a href="leadership-bm.html" class="nav-link">Kepimpinan</a>
+                </li>
+                <li class="nav-item">
+                    <a href="membership-bm.html" class="nav-link active">Keahlian</a>
+                </li>
+                <li class="nav-item">
+                    <a href="activities-bm.html" class="nav-link">Aktiviti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact-bm.html" class="nav-link">Hubungi</a>
+                </li>
+                <li class="nav-item language-switcher">
+                    <button class="nav-link language-toggle-btn" onclick="toggleLanguage()">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">BM</span>
+                        <i class="fas fa-exchange-alt toggle-icon"></i>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link dark-mode-toggle" onclick="toggleDarkMode()">
+                        <i class="fas fa-moon"></i>
+                        <span>Gelap</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Keahlian</h1>
+                <p>Sertai SOGWA dan menjadi sebahagian daripada komuniti yang melindungi hak dan kebajikan anda</p>
+                <nav class="breadcrumb">
+                    <a href="index-bm.html">Utama</a>
+                    <span>/</span>
+                    <span>Keahlian</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <div class="membership-content">
+                <div class="membership-criteria">
+                    <h3>Kriteria Keahlian</h3>
+                    <div class="criteria-grid">
+                        <div class="criteria-item">
+                            <i class="fas fa-flag"></i>
+                            <span>Warganegara Malaysia</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>Minimum 18 tahun</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Penduduk Sarawak</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-users"></i>
+                            <span>Semua kaum dialu-alukan</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-venus-mars"></i>
+                            <span>Lelaki dan Perempuan</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-pray"></i>
+                            <span>Semua agama</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-industry"></i>
+                            <span>Bekerja dalam Industri Minyak & Gas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="membership-fees">
+                    <h3>Yuran Keahlian</h3>
+                    <div class="fees-grid">
+                        <div class="fee-card">
+                            <h4>Yuran Pendaftaran</h4>
+                            <div class="fee-amount">RM 40.00</div>
+                            <p>Bayaran sekali sahaja semasa menyertai</p>
+                        </div>
+                        <div class="fee-card">
+                            <h4>Yuran Tahunan</h4>
+                            <div class="fee-amount">RM 60.00</div>
+                            <p>Pembaharuan keahlian tahunan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="benefits">
+                <div class="benefits-header">
+                    <h3>Faedah Ahli</h3>
+                    <p>Sertai SOGWA dan nikmati faedah eksklusif yang direka khas untuk pekerja minyak dan gas</p>
+                </div>
+                
+                <div class="benefits-categories">
+                    <!-- Core Benefits -->
+                    <div class="benefit-category">
+                        <h4 class="category-title">
+                            <i class="fas fa-star"></i>
+                            Faedah Teras
+                        </h4>
+                        <div class="benefits-grid core-benefits">
+                            <div class="benefit-item primary-benefit">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Perlindungan Kebajikan</h4>
+                                    <p>Perlindungan menyeluruh terhadap hak dan kebajikan anda di tempat kerja dengan sokongan berdedikasi</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item primary-benefit">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-gavel"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Sokongan Undang-undang</h4>
+                                    <p>Bantuan profesional untuk pertikaian tempat kerja dan hal undang-undang daripada peguam berpengalaman</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Career Benefits -->
+                    <div class="benefit-category">
+                        <h4 class="category-title">
+                            <i class="fas fa-briefcase"></i>
+                            Pembangunan Kerjaya
+                        </h4>
+                        <div class="benefits-grid career-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Peluang Pekerjaan</h4>
+                                    <p>Akses kepada peluang pekerjaan dan kerjaya eksklusif dalam industri minyak dan gas</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Program Latihan</h4>
+                                    <p>Program pembangunan kemahiran dan peningkatan kompetensi untuk memajukan kerjaya anda</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Rangkaian Profesional</h4>
+                                    <p>Berhubung dengan rakan sekerja minyak dan gas dan pemimpin industri</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Information Benefits -->
+                    <div class="benefit-category">
+                        <h4 class="category-title">
+                            <i class="fas fa-info-circle"></i>
+                            Maklumat & Kemas Kini
+                        </h4>
+                        <div class="benefits-grid info-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-newspaper"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Kemas Kini Industri</h4>
+                                    <p>Berita terkini, perkembangan, dan trend dalam sektor minyak dan gas</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Akses Acara</h4>
+                                    <p>Akses keutamaan kepada acara SOGWA, seminar, dan persidangan industri</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Section -->
+    <section class="application-section">
+        <div class="container">
+            <div class="application-content">
+                <h2>Bersedia untuk Menyertai SOGWA?</h2>
+                <p>Ambil langkah pertama untuk melindungi hak anda dan memajukan kerjaya dalam industri minyak dan gas</p>
+                <div class="application-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h4>Semak Kelayakan</h4>
+                        <p>Pastikan anda memenuhi kriteria keahlian kami</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h4>Hubungi Kami</h4>
+                        <p>Hubungi kami untuk memulakan permohonan anda</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h4>Hantar Dokumen</h4>
+                        <p>Berikan dokumen yang diperlukan</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h4>Bayar Yuran</h4>
+                        <p>Lengkapkan yuran pendaftaran dan tahunan</p>
+                    </div>
+                </div>
+                <div class="application-buttons">
+                    <a href="contact-bm.html" class="btn btn-primary">Mulakan Permohonan</a>
+                    <a href="leadership-bm.html" class="btn btn-secondary">Temu Pasukan Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Logo SOGWA" class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <h3>SOGWA</h3>
+                            <p>Persatuan Pekerja Minyak dan Gas Sarawak</p>
+                        </div>
+                    </div>
+                    <p>Melindungi dan memajukan kebajikan pekerja minyak dan gas di Sarawak sejak 2017.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Pautan Pantas</h4>
+                    <ul>
+                        <li><a href="index-bm.html">Utama</a></li>
+                        <li><a href="leadership-bm.html">Kepimpinan</a></li>
+                        <li><a href="membership-bm.html">Keahlian</a></li>
+                        <li><a href="activities-bm.html">Aktiviti</a></li>
+                        <li><a href="contact-bm.html">Hubungi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Maklumat Hubungan</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:secretary.sogwa@gmail.com">secretary.sogwa@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+60164014308">016 401 4308</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Survey Lot 10464, (Sub Lot 277) of Parent Lot 871,<br>
+                        Block 5 Kuala Baram Land District (G/F)<br>
+                        98000 Miri, Sarawak</p> 
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> SOGWA - Persatuan Pekerja Minyak dan Gas Sarawak. Hak cipta terpelihara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

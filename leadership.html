@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Team - SOGWA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="SOGWA Logo" class="logo-img">
+                <div class="logo-text">
+                    <h2>SOGWA</h2>
+                    <span>Sarawak Oil & Gas Workers Association</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="leadership.html" class="nav-link active">Leadership</a>
+                </li>
+                <li class="nav-item">
+                    <a href="membership.html" class="nav-link">Membership</a>
+                </li>
+                <li class="nav-item">
+                    <a href="activities.html" class="nav-link">Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item language-switcher">
+                    <button class="nav-link language-toggle-btn" onclick="toggleLanguage()">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">EN</span>
+                        <i class="fas fa-exchange-alt toggle-icon"></i>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link dark-mode-toggle" onclick="toggleDarkMode()">
+                        <i class="fas fa-moon"></i>
+                        <span>Dark</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Leadership Team</h1>
+                <p>Meet our dedicated leadership team committed to serving SOGWA members</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Leadership</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <!-- Executive Committee -->
+            <div class="leadership-category">
+                <h3 class="category-title">
+                    <i class="fas fa-crown"></i>
+                    Executive Committee
+                </h3>
+                <div class="leadership-grid executive-grid">
+                    <div class="leader-card main-leader">
+                        <div class="leader-avatar">
+                            <img src="images/jamal.png" alt="Jamal Bin Abdullah">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Jamal Bin Abdullah</h3>
+                            <p class="position">Chairman</p>
+                            <div class="leader-badge">Executive</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card executive-card">
+                        <div class="leader-avatar">
+                            <img src="images/keroana.png" alt="Keroana Johny Weiss">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Keroana Johny Weiss</h3>
+                            <p class="position">Deputy Chairman</p>
+                            <div class="leader-badge">Executive</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card executive-card">
+                        <div class="leader-avatar">
+                            <img src="images/ringgit.png" alt="Ringgit Anak Seminan">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Ringgit Anak Seminan</h3>
+                            <p class="position">Secretary</p>
+                            <div class="leader-badge">Executive</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card executive-card">
+                        <div class="leader-avatar">
+                            <img src="images/luna.png" alt="Luna Anak Lium">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Luna Anak Lium</h3>
+                            <p class="position">Treasurer</p>
+                            <div class="leader-badge">Executive</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Management Team -->
+            <div class="leadership-category">
+                <h3 class="category-title">
+                    <i class="fas fa-users-cog"></i>
+                    Management Team
+                </h3>
+                <div class="leadership-grid management-grid">
+                    <div class="leader-card management-card">
+                        <div class="leader-avatar">
+                            <img src="images/maramat.png" alt="Maramat Bin Said">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Maramat Bin Said</h3>
+                            <p class="position">Assistant Secretary</p>
+                            <div class="leader-badge">Management</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card management-card">
+                        <div class="leader-avatar">
+                            <img src="images/addison.png" alt=" Anak Sang">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Anak Sang</h3>
+                            <p class="position">Internal Auditor</p>
+                            <div class="leader-badge">Management</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Committee Members -->
+            <div class="leadership-category">
+                <h3 class="category-title">
+                    <i class="fas fa-users"></i>
+                    Committee Members
+                </h3>
+                <div class="leadership-grid committee-grid">
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <img src="images/dennis.png" alt="Dennis Garatong">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Dennis Garatong</h3>
+                            <p class="position">Training</p>
+                            <div class="leader-badge">Committee</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <img src="images/bujang.png" alt="Bujang Carlos">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Bujang Carlos</h3>
+                            <p class="position">Publicity</p>
+                            <div class="leader-badge">Committee</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <img src="images/gergery.png" alt="Gergery Changat">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Gergery Changat</h3>
+                            <p class="position">Welfare</p>
+                            <div class="leader-badge">Committee</div>
+                        </div>
+                    </div>
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <img src="images/arman.png" alt="Arman Bin Asmara">
+                        </div>
+                        <div class="leader-info">
+                            <h3>Arman Bin Asmara</h3>
+                            <p class="position">SOGWA-Medic Representative</p>
+                            <div class="leader-badge">Special</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Join SOGWA?</h2>
+                <p>Become part of our community and enjoy the benefits of membership</p>
+                <div class="cta-buttons">
+                    <a href="membership.html" class="btn btn-primary">Join Now</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="SOGWA Logo" class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <h3>SOGWA</h3>
+                            <p>Sarawak Oil and Gas Workers Association</p>
+                        </div>
+                    </div>
+                    <p>Protecting and advancing the welfare of oil and gas workers in Sarawak since 2017.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:secretary.sogwa@gmail.com">secretary.sogwa@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+60164014308">016 401 4308</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Survey Lot 10464, (Sub Lot 277) of Parent Lot 871,<br>
+                        Block 5 Kuala Baram Land District (G/F)<br>
+                        98000 Miri, Sarawak</p> 
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> SOGWA - Sarawak Oil and Gas Workers Association. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

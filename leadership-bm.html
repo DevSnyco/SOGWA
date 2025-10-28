@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasukan Kepimpinan - SOGWA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Logo SOGWA" class="logo-img">
+                <div class="logo-text">
+                    <h2>SOGWA</h2>
+                    <span>Persatuan Pekerja Minyak dan Gas Sarawak</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index-bm.html" class="nav-link">Utama</a>
+                </li>
+                <li class="nav-item">
+                    <a href="leadership-bm.html" class="nav-link active">Kepimpinan</a>
+                </li>
+                <li class="nav-item">
+                    <a href="membership-bm.html" class="nav-link">Keahlian</a>
+                </li>
+                <li class="nav-item">
+                    <a href="activities-bm.html" class="nav-link">Aktiviti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact-bm.html" class="nav-link">Hubungi</a>
+                </li>
+                <li class="nav-item language-switcher">
+                    <button class="nav-link language-toggle-btn" onclick="toggleLanguage()">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">BM</span>
+                        <i class="fas fa-exchange-alt toggle-icon"></i>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link dark-mode-toggle" onclick="toggleDarkMode()">
+                        <i class="fas fa-moon"></i>
+                        <span>Gelap</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Pasukan Kepimpinan</h1>
+                <p>Berkenalan dengan pasukan kepimpinan kami yang berdedikasi untuk melayani ahli SOGWA</p>
+                <nav class="breadcrumb">
+                    <a href="index-bm.html">Utama</a>
+                    <span>/</span>
+                    <span>Kepimpinan</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <!-- Executive Committee -->
+            <div class="leadership-category">
+                <h3 class="category-title">
+                    <i class="fas fa-crown"></i>
+                    Jawatankuasa Eksekutif
+                </h3>
+                <div class="leadership-grid executive-grid">
+                    <div class="leader-card main-leader">
+                        <div class="leader-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Jamal Bin Abdullah</h3>
+                            <p class="position">Pengerusi</p>
+                            <div class="leader-badge">Eksekutif</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card executive-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Keroana Johny Weiss</h3>
+                            <p class="position">Timbalan Pengerusi</p>
+                            <div class="leader-badge">Eksekutif</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card executive-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Ringgit Anak Seminan</h3>
+                            <p class="position">Setiausaha</p>
+                            <div class="leader-badge">Eksekutif</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card executive-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Luna Anak Lium</h3>
+                            <p class="position">Bendahari</p>
+                            <div class="leader-badge">Eksekutif</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Management Team -->
+            <div class="leadership-category">
+                <h3 class="category-title">
+                    <i class="fas fa-users-cog"></i>
+                    Pasukan Pengurusan
+                </h3>
+                <div class="leadership-grid management-grid">
+                    <div class="leader-card management-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Maramat Bin Said</h3>
+                            <p class="position">Setiausaha Penolong</p>
+                            <div class="leader-badge">Pengurusan</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card management-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Anak Sang</h3>
+                            <p class="position">Juruaudit Dalaman</p>
+                            <div class="leader-badge">Pengurusan</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Committee Members -->
+            <div class="leadership-category">
+                <h3 class="category-title">
+                    <i class="fas fa-users"></i>
+                    Ahli Jawatankuasa
+                </h3>
+                <div class="leadership-grid committee-grid">
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Dennis Garatong</h3>
+                            <p class="position">Latihan</p>
+                            <div class="leader-badge">Jawatankuasa</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Bujang Carlos</h3>
+                            <p class="position">Publisiti</p>
+                            <div class="leader-badge">Jawatankuasa</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Gergery Changat</h3>
+                            <p class="position">Kebajikan</p>
+                            <div class="leader-badge">Jawatankuasa</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Anak Bayang</h3>
+                            <p class="position">Ahli Biasa</p>
+                            <div class="leader-badge">Jawatankuasa</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Addison Ah Jui</h3>
+                            <p class="position">Ahli Biasa</p>
+                            <div class="leader-badge">Jawatankuasa</div>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card committee-card">
+                        <div class="leader-avatar">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>Arman Bin Asmara</h3>
+                            <p class="position">Wakil SOGWA-Medic</p>
+                            <div class="leader-badge">Khas</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Bersedia untuk Menyertai SOGWA?</h2>
+                <p>Menjadi sebahagian daripada komuniti kami dan nikmati faedah keahlian</p>
+                <div class="cta-buttons">
+                    <a href="membership-bm.html" class="btn btn-primary">Sertai Sekarang</a>
+                    <a href="contact-bm.html" class="btn btn-secondary">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Logo SOGWA" class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <h3>SOGWA</h3>
+                            <p>Persatuan Pekerja Minyak dan Gas Sarawak</p>
+                        </div>
+                    </div>
+                    <p>Melindungi dan memajukan kebajikan pekerja minyak dan gas di Sarawak sejak 2017.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Pautan Pantas</h4>
+                    <ul>
+                        <li><a href="index-bm.html">Utama</a></li>
+                        <li><a href="leadership-bm.html">Kepimpinan</a></li>
+                        <li><a href="membership-bm.html">Keahlian</a></li>
+                        <li><a href="activities-bm.html">Aktiviti</a></li>
+                        <li><a href="contact-bm.html">Hubungi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Maklumat Hubungan</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:secretary.sogwa@gmail.com">secretary.sogwa@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+60164014308">016 401 4308</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Survey Lot 10464, (Sub Lot 277) of Parent Lot 871,<br>
+                        Block 5 Kuala Baram Land District (G/F)<br>
+                        98000 Miri, Sarawak</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> SOGWA - Persatuan Pekerja Minyak dan Gas Sarawak. Hak cipta terpelihara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

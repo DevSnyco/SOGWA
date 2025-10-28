@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - SOGWA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Logo SOGWA" class="logo-img">
+                <div class="logo-text">
+                    <h2>SOGWA</h2>
+                    <span>Persatuan Pekerja Minyak dan Gas Sarawak</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index-bm.html" class="nav-link">Utama</a>
+                </li>
+                <li class="nav-item">
+                    <a href="leadership-bm.html" class="nav-link">Kepimpinan</a>
+                </li>
+                <li class="nav-item">
+                    <a href="membership-bm.html" class="nav-link">Keahlian</a>
+                </li>
+                <li class="nav-item">
+                    <a href="activities-bm.html" class="nav-link">Aktiviti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact-bm.html" class="nav-link active">Hubungi</a>
+                </li>
+                <li class="nav-item language-switcher">
+                    <button class="nav-link language-toggle-btn" onclick="toggleLanguage()">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">BM</span>
+                        <i class="fas fa-exchange-alt toggle-icon"></i>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link dark-mode-toggle" onclick="toggleDarkMode()">
+                        <i class="fas fa-moon"></i>
+                        <span>Gelap</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Hubungi Kami</h1>
+                <p>Hubungi SOGWA untuk keahlian, sokongan, atau pertanyaan umum</p>
+                <nav class="breadcrumb">
+                    <a href="index-bm.html">Utama</a>
+                    <span>/</span>
+                    <span>Hubungi</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Survey Lot 10464, (Sub Lot 277) of Parent Lot 871,<br>
+                            Block 5 Kuala Baram Land District (G/F)<br>
+                            98000 Miri, Sarawak</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mel</h4>
+                            <p>secretary.sogwa@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefon</h4>
+                            <p>016 401 4308</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h4>Ditubuhkan</h4>
+                            <p>30 Ogos 2017</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Pendaftaran</h4>
+                            <p>PPM - 015 - 13 - 30082017<br>
+                            Akta Pertubuhan 1966</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Hantar Mesej kepada Kami</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="E-mel Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Telefon Anda">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Pilih Subjek</option>
+                                <option value="membership">Pertanyaan Keahlian</option>
+                                <option value="support">Permintaan Sokongan</option>
+                                <option value="training">Program Latihan</option>
+                                <option value="general">Pertanyaan Umum</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mesej Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Hantar Mesej</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Hours Section -->
+    <section class="office-hours">
+        <div class="container">
+            <div class="office-hours-content">
+                <h2>Waktu Pejabat</h2>
+                <div class="hours-grid">
+                    <div class="hours-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Isnin - Jumaat</h3>
+                        <p>9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="hours-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Sabtu</h3>
+                        <p>9:00 AM - 1:00 PM</p>
+                    </div>
+                    <div class="hours-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Ahad</h3>
+                        <p>Tutup</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Soalan Lazim</h2>
+                <p>Cari jawapan kepada soalan biasa tentang SOGWA</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Bagaimana untuk menjadi ahli SOGWA?</h4>
+                    <p>Untuk menjadi ahli, anda mestilah warganegara Malaysia, sekurang-kurangnya 18 tahun, penduduk Sarawak, dan bekerja dalam industri minyak dan gas. Hubungi kami untuk memulakan proses permohonan anda.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Apakah yuran keahlian?</h4>
+                    <p>Yuran pendaftaran ialah RM 40.00 (bayaran sekali sahaja) dan yuran tahunan ialah RM 60.00 untuk pembaharuan keahlian tahunan.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Apakah faedah yang saya dapat sebagai ahli?</h4>
+                    <p>Ahli menikmati perlindungan kebajikan, sokongan undang-undang, peluang pekerjaan, program latihan, rangkaian profesional, kemas kini industri, dan akses keutamaan kepada acara.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Bagaimana saya boleh mendapatkan bantuan dengan isu tempat kerja?</h4>
+                    <p>SOGWA menyediakan advokasi dan sokongan undang-undang untuk ahli yang menghadapi pertikaian tempat kerja. Hubungi pejabat kami atau isi borang hubungan untuk mendapatkan bantuan.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Adakah SOGWA menganjurkan program latihan?</h4>
+                    <p>Ya, SOGWA kerap menganjurkan program pembangunan kemahiran dan peningkatan kompetensi untuk ahli memajukan kerjaya mereka dalam industri minyak dan gas.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Bagaimana saya boleh mengikuti perkembangan aktiviti SOGWA?</h4>
+                    <p>Ikuti kami di media sosial, layari laman web kami secara berkala, atau hubungi kami untuk ditambah ke dalam senarai e-mel kami untuk kemas kini tentang acara dan aktiviti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Logo SOGWA" class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <h3>SOGWA</h3>
+                            <p>Persatuan Pekerja Minyak dan Gas Sarawak</p>
+                        </div>
+                    </div>
+                    <p>Melindungi dan memajukan kebajikan pekerja minyak dan gas di Sarawak sejak 2017.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Pautan Pantas</h4>
+                    <ul>
+                        <li><a href="index-bm.html">Utama</a></li>
+                        <li><a href="leadership-bm.html">Kepimpinan</a></li>
+                        <li><a href="membership-bm.html">Keahlian</a></li>
+                        <li><a href="activities-bm.html">Aktiviti</a></li>
+                        <li><a href="contact-bm.html">Hubungi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Maklumat Hubungan</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:secretary.sogwa@gmail.com">secretary.sogwa@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+60164014308">016 401 4308</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Survey Lot 10464, (Sub Lot 277) of Parent Lot 871,<br>
+                        Block 5 Kuala Baram Land District (G/F)<br>
+                        98000 Miri, Sarawak</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> SOGWA- Persatuan Pekerja Minyak dan Gas Sarawak. Hak cipta terpelihara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
